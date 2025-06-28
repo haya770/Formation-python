@@ -27,3 +27,14 @@ def IsLeapYear():
         print("erreur")
 
 print(IsLeapYear())
+
+
+#question 3
+
+def IsOdd(number):
+    if number%2==0:
+        print ("pair")
+    else:
+        print("impair")
+
+IsOdd(5)
