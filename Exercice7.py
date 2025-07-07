@@ -36,3 +36,27 @@ file.close()
 with open("data.txt", "r") as file:
      contenu =file.read()
 print(contenu)
+
+
+#question 12
+
+def safe_divide(a,b):
+    
+    try:
+        return a/b
+
+
+    except ZeroDivisionError:
+        return ("cant divisie")
+
+print(safe_divide(5,6))
+
+
+try:
+    num = int(input("Entrez un nombre entier : "))
+except ValueError:
+    print("Value error occurred")
+else:
+    print("No error occurred")
+
+
